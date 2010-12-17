@@ -63,7 +63,7 @@ header('Content-type:text/html; charset=utf-8');
 						<div class="clearer"></div>
 						<div style="float:left;"><!-- left column -->
 						<h2><a href="http://shuguo.org/news"><img width="16" height="16" border="none" src="./icons/favicon.ico"> 瑞典新闻</a></h2>
-							<?php echo newsblocks::render('http://news.google.com/news?hl=en&tab=bn&ned=us&q=%E7%91%9E%E5%85%B8&ie=UTF-8&nolr=1&output=rss'); ?>
+							<?php echo newsblocks::render('http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&as_scoring=r&as_maxm=12&q=%E7%91%9E%E5%85%B8+-%E5%A4%A7%E7%BA%AA%E5%85%83&as_qdr=a&as_drrb=q&as_mind=17&as_minm=11&cf=all&as_maxd=17&output=rss'); ?>
 						</div>
 						
 						<div style="float:right;"><!-- right column -->
@@ -76,13 +76,13 @@ header('Content-type:text/html; charset=utf-8');
 						<div class="clearer"></div>
 						<div style="float:left;"><!-- left column -->
 						<h2><a href="http://shuguo.org/news"><img width="16" height="16" border="none" src="./icons/favicon.ico"> 瑞典博客</a></h2>
-							<?php echo newsblocks::render('http://blogsearch.google.com/blogsearch_feeds?hl=en&client=news&q=%E7%91%9E%E5%85%B8&ie=utf-8&num=10&output=rss'); ?>
+							<?php echo newsblocks::render('http://news.google.com/news?pz=1&cf=b&ned=us&hl=en&as_scoring=r&as_maxm=12&q=%E7%91%9E%E5%85%B8+-%E5%A4%A7%E7%BA%AA%E5%85%83&as_qdr=a&as_drrb=q&as_mind=17&as_minm=11&cf=b&as_maxd=17&output=rss'); ?>
 						</div>
 						
 						
 						<div style="float:right;"><!-- right column -->
 						<h2><a href="http://shuguo.org/news"><img width="16" height="16" border="none" src="./icons/favicon.ico"> 斯德哥尔摩博客</a></h2>
-							<?php echo newsblocks::render('http://blogsearch.google.com/blogsearch_feeds?hl=en&client=news&q=%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9+-%E7%BB%BC%E5%90%88%E7%97%87&ie=utf-8&num=10&output=rss'); ?>
+							<?php echo newsblocks::render('http://news.google.com/news?pz=1&cf=b&ned=us&hl=en&q=%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9+-%E5%A4%A7%E7%BA%AA%E5%85%83+-%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9%E7%BB%BC%E5%90%88%E7%97%87&cf=b&output=rss'); ?>
 						</div>
 						
 						
