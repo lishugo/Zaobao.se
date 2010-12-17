@@ -68,7 +68,7 @@ header('Content-type:text/html; charset=utf-8');
 						
 						<div style="float:right;"><!-- right column -->
 						<h2><a href="http://shuguo.org/news"><img width="16" height="16" border="none" src="./icons/favicon.ico"> 斯德哥尔摩新闻</a></h2>
-							<?php echo newsblocks::render('http://news.google.com/news?hl=en&tab=wn&ned=us&q=%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9&ie=UTF-8&nolr=1&output=rss'); ?>
+							<?php echo newsblocks::render('http://news.google.com/news?cf=all&ned=us&hl=en&as_scoring=r&as_maxm=12&q=%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9+-%E5%A4%A7%E7%BA%AA%E5%85%83,+-%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9%E7%BB%BC%E5%90%88%E7%97%87&as_qdr=a&as_drrb=q&as_mind=17&as_minm=11&cf=all&as_maxd=17&output=rss'); ?>
 						</div>		
 						<!-- end 1st row -->
 						
